@@ -44,7 +44,7 @@ public class TestServlet extends HttpServlet {
 			
 			// Step 4:  Execute SQL query
 			myRs = myStmt.executeQuery(sql);
-			
+			//this line added for testing
 			// Step 5:  Process the result set
 			while (myRs.next()) {
 				String city = myRs.getString("customer_city");
