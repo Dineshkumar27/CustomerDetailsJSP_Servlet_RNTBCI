@@ -43,6 +43,7 @@ public class TestServlet extends HttpServlet {
 			myStmt = myConn.createStatement();
 			
 			// Step 4:  Execute SQL query
+			//added from remote repository
 			myRs = myStmt.executeQuery(sql);
 			
 			// Step 5:  Process the result set
